@@ -36,4 +36,6 @@ vine==5.1.0
 wcwidth==0.2.13
 
 # fractal database dependencies
-git+https://github.com/fractalnetworksco/fractal-database.git
+
+git+https://github.com/fractalnetworksco/fractal-database-matrix.git@use-autofield
+git+https://github.com/fractalnetworksco/fractal-database.git@use-autofield

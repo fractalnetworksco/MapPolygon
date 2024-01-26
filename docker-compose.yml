@@ -31,7 +31,8 @@ services:
       - OPENCAGE_API=10a9e27df30d48b9bf5ca88ad1f4ad44
       # fractal database configuration
       - MATRIX_HOMESERVER_URL=http://synapse:8008
-      - MATRIX_ACCESS_TOKEN=syt_YWRtaW4_eTZcUyRFMLNowjZNOzlt_1UOWT3
+      - MATRIX_ACCESS_TOKEN=syt_YWRtaW4y_cMizXszqjUNHEBmsVYQi_0eplJy
+      - MATRIX_ROOM_ID=!EICZGRVRFxHkiwnjFD:localhost
     depends_on:
       - db
       - rabbitmq
